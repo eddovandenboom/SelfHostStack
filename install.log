@@ -1,0 +1,491 @@
+# Host 135.181.158.108 found: line 13
+/home/eddo/.ssh/known_hosts updated.
+Original contents retained as /home/eddo/.ssh/known_hosts.old
+Warning: Permanently added '135.181.158.108' (ED25519) to the list of known hosts.
+[sudo] password for ubuntu: Get:1 https://mirror.hetzner.com/ubuntu/packages noble InRelease [256 kB]
+Get:2 https://mirror.hetzner.com/ubuntu/packages noble-updates InRelease [126 kB]
+Get:3 https://mirror.hetzner.com/ubuntu/packages noble-backports InRelease [126 kB]
+Get:4 https://mirror.hetzner.com/ubuntu/security noble-security InRelease [126 kB]
+Get:5 https://mirror.hetzner.com/ubuntu/packages noble/main amd64 Packages [1401 kB]
+Get:6 https://mirror.hetzner.com/ubuntu/packages noble/main Translation-en [513 kB]
+Get:7 https://mirror.hetzner.com/ubuntu/packages noble/main amd64 c-n-f Metadata [30.5 kB]
+Get:8 https://mirror.hetzner.com/ubuntu/packages noble/universe amd64 Packages [15.0 MB]
+Get:9 https://mirror.hetzner.com/ubuntu/packages noble/universe Translation-en [5982 kB]
+Get:10 https://mirror.hetzner.com/ubuntu/packages noble/universe amd64 c-n-f Metadata [301 kB]
+Get:11 https://mirror.hetzner.com/ubuntu/packages noble/restricted amd64 Packages [93.9 kB]
+Get:12 https://mirror.hetzner.com/ubuntu/packages noble/restricted Translation-en [18.7 kB]
+Get:13 https://mirror.hetzner.com/ubuntu/packages noble/restricted amd64 c-n-f Metadata [416 B]
+Get:14 https://mirror.hetzner.com/ubuntu/packages noble/multiverse amd64 Packages [269 kB]
+Get:15 https://mirror.hetzner.com/ubuntu/packages noble/multiverse Translation-en [118 kB]
+Get:16 https://mirror.hetzner.com/ubuntu/packages noble/multiverse amd64 c-n-f Metadata [8328 B]
+Get:17 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 Packages [605 kB]
+Get:18 https://mirror.hetzner.com/ubuntu/packages noble-updates/main Translation-en [148 kB]
+Get:19 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 c-n-f Metadata [10.4 kB]
+Get:20 https://mirror.hetzner.com/ubuntu/packages noble-updates/universe amd64 Packages [710 kB]
+Get:21 https://mirror.hetzner.com/ubuntu/packages noble-updates/universe Translation-en [211 kB]
+Get:22 https://mirror.hetzner.com/ubuntu/packages noble-updates/universe amd64 c-n-f Metadata [19.9 kB]
+Get:23 https://mirror.hetzner.com/ubuntu/packages noble-updates/restricted amd64 Packages [405 kB]
+Get:24 https://mirror.hetzner.com/ubuntu/packages noble-updates/restricted Translation-en [77.1 kB]
+Get:25 https://mirror.hetzner.com/ubuntu/packages noble-updates/restricted amd64 c-n-f Metadata [424 B]
+Get:26 https://mirror.hetzner.com/ubuntu/packages noble-updates/multiverse amd64 Packages [15.0 kB]
+Get:27 https://mirror.hetzner.com/ubuntu/packages noble-updates/multiverse Translation-en [3820 B]
+Get:28 https://mirror.hetzner.com/ubuntu/packages noble-updates/multiverse amd64 c-n-f Metadata [552 B]
+Get:29 https://mirror.hetzner.com/ubuntu/packages noble-backports/main amd64 c-n-f Metadata [112 B]
+Get:30 https://mirror.hetzner.com/ubuntu/packages noble-backports/universe amd64 Packages [10.6 kB]
+Get:31 https://mirror.hetzner.com/ubuntu/packages noble-backports/universe Translation-en [10.8 kB]
+Get:32 https://mirror.hetzner.com/ubuntu/packages noble-backports/universe amd64 c-n-f Metadata [1104 B]
+Get:33 https://mirror.hetzner.com/ubuntu/packages noble-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:34 https://mirror.hetzner.com/ubuntu/packages noble-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:35 https://mirror.hetzner.com/ubuntu/security noble-security/main amd64 Packages [435 kB]
+Get:36 https://mirror.hetzner.com/ubuntu/security noble-security/main Translation-en [94.0 kB]
+Get:37 https://mirror.hetzner.com/ubuntu/security noble-security/main amd64 c-n-f Metadata [5892 B]
+Get:38 https://mirror.hetzner.com/ubuntu/security noble-security/universe amd64 Packages [557 kB]
+Get:39 https://mirror.hetzner.com/ubuntu/security noble-security/universe Translation-en [149 kB]
+Get:40 https://mirror.hetzner.com/ubuntu/security noble-security/universe amd64 c-n-f Metadata [13.5 kB]
+Get:41 https://mirror.hetzner.com/ubuntu/security noble-security/restricted amd64 Packages [390 kB]
+Get:42 https://mirror.hetzner.com/ubuntu/security noble-security/restricted Translation-en [74.8 kB]
+Get:43 https://mirror.hetzner.com/ubuntu/security noble-security/restricted amd64 c-n-f Metadata [424 B]
+Get:44 https://mirror.hetzner.com/ubuntu/security noble-security/multiverse amd64 Packages [12.2 kB]
+Get:45 https://mirror.hetzner.com/ubuntu/security noble-security/multiverse Translation-en [2940 B]
+Get:46 https://mirror.hetzner.com/ubuntu/security noble-security/multiverse amd64 c-n-f Metadata [356 B]
+Fetched 28.4 MB in 5s (5823 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages have been kept back:
+  linux-image-virtual sosreport
+The following packages will be upgraded:
+  distro-info-data gcc-14-base initramfs-tools initramfs-tools-bin
+  initramfs-tools-core libgcc-s1 libproc2-0 libstdc++6 linux-tools-common
+  login nano passwd procps python3-update-manager python3-urllib3 snapd
+  update-manager-core
+17 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Need to get 32.6 MB of archives.
+After this operation, 2094 kB of additional disk space will be used.
+Get:1 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 login amd64 1:4.13+dfsg1-4ubuntu3.2 [202 kB]
+Get:2 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 gcc-14-base amd64 14.2.0-4ubuntu2~24.04 [50.8 kB]
+Get:3 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 libstdc++6 amd64 14.2.0-4ubuntu2~24.04 [791 kB]
+Get:4 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 libgcc-s1 amd64 14.2.0-4ubuntu2~24.04 [78.6 kB]
+Get:5 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 passwd amd64 1:4.13+dfsg1-4ubuntu3.2 [845 kB]
+Get:6 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 libproc2-0 amd64 2:4.0.4-4ubuntu3.2 [59.5 kB]
+Get:7 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 procps amd64 2:4.0.4-4ubuntu3.2 [707 kB]
+Get:8 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 distro-info-data all 0.60ubuntu0.2 [6590 B]
+Get:9 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 nano amd64 7.2-2ubuntu0.1 [282 kB]
+Get:10 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 python3-update-manager all 1:24.04.9 [43.1 kB]
+Get:11 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 update-manager-core all 1:24.04.9 [11.6 kB]
+Get:12 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 initramfs-tools all 0.142ubuntu25.4 [9078 B]
+Get:13 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 initramfs-tools-core all 0.142ubuntu25.4 [50.3 kB]
+Get:14 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 initramfs-tools-bin amd64 0.142ubuntu25.4 [21.3 kB]
+Get:15 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 linux-tools-common all 6.8.0-48.48 [558 kB]
+Get:16 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 python3-urllib3 all 2.0.7-1ubuntu0.1 [93.1 kB]
+Get:17 https://mirror.hetzner.com/ubuntu/packages noble-updates/main amd64 snapd amd64 2.65.3+24.04 [28.8 MB]
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+Fetched 32.6 MB in 1s (39.6 MB/s)
+locale: Cannot set LC_ALL to default locale: No such file or directory
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35701 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb ...
+Unpacking login (1:4.13+dfsg1-4ubuntu3.2) over (1:4.13+dfsg1-4ubuntu3) ...
+Setting up login (1:4.13+dfsg1-4ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35701 files and directories currently installed.)
+Preparing to unpack .../gcc-14-base_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking gcc-14-base:amd64 (14.2.0-4ubuntu2~24.04) over (14-20240412-0ubuntu1) ...
+Setting up gcc-14-base:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35701 files and directories currently installed.)
+Preparing to unpack .../libstdc++6_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libstdc++6:amd64 (14.2.0-4ubuntu2~24.04) over (14-20240412-0ubuntu1) ...
+Setting up libstdc++6:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35701 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_14.2.0-4ubuntu2~24.04_amd64.deb ...
+Unpacking libgcc-s1:amd64 (14.2.0-4ubuntu2~24.04) over (14-20240412-0ubuntu1) ...
+Setting up libgcc-s1:amd64 (14.2.0-4ubuntu2~24.04) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35701 files and directories currently installed.)
+Preparing to unpack .../passwd_1%3a4.13+dfsg1-4ubuntu3.2_amd64.deb ...
+Unpacking passwd (1:4.13+dfsg1-4ubuntu3.2) over (1:4.13+dfsg1-4ubuntu3) ...
+Setting up passwd (1:4.13+dfsg1-4ubuntu3.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35701 files and directories currently installed.)
+Preparing to unpack .../00-libproc2-0_2%3a4.0.4-4ubuntu3.2_amd64.deb ...
+Unpacking libproc2-0:amd64 (2:4.0.4-4ubuntu3.2) over (2:4.0.4-4ubuntu3.1) ...
+Preparing to unpack .../01-procps_2%3a4.0.4-4ubuntu3.2_amd64.deb ...
+Unpacking procps (2:4.0.4-4ubuntu3.2) over (2:4.0.4-4ubuntu3.1) ...
+Preparing to unpack .../02-distro-info-data_0.60ubuntu0.2_all.deb ...
+Unpacking distro-info-data (0.60ubuntu0.2) over (0.60ubuntu0.1) ...
+Preparing to unpack .../03-nano_7.2-2ubuntu0.1_amd64.deb ...
+Unpacking nano (7.2-2ubuntu0.1) over (7.2-2build1) ...
+Preparing to unpack .../04-python3-update-manager_1%3a24.04.9_all.deb ...
+Unpacking python3-update-manager (1:24.04.9) over (1:24.04.8) ...
+Preparing to unpack .../05-update-manager-core_1%3a24.04.9_all.deb ...
+Unpacking update-manager-core (1:24.04.9) over (1:24.04.8) ...
+Preparing to unpack .../06-initramfs-tools_0.142ubuntu25.4_all.deb ...
+Unpacking initramfs-tools (0.142ubuntu25.4) over (0.142ubuntu25.2) ...
+Preparing to unpack .../07-initramfs-tools-core_0.142ubuntu25.4_all.deb ...
+Unpacking initramfs-tools-core (0.142ubuntu25.4) over (0.142ubuntu25.2) ...
+Preparing to unpack .../08-initramfs-tools-bin_0.142ubuntu25.4_amd64.deb ...
+Unpacking initramfs-tools-bin (0.142ubuntu25.4) over (0.142ubuntu25.2) ...
+Preparing to unpack .../09-linux-tools-common_6.8.0-48.48_all.deb ...
+Unpacking linux-tools-common (6.8.0-48.48) over (6.8.0-45.45) ...
+Preparing to unpack .../10-python3-urllib3_2.0.7-1ubuntu0.1_all.deb ...
+Unpacking python3-urllib3 (2.0.7-1ubuntu0.1) over (2.0.7-1) ...
+Preparing to unpack .../11-snapd_2.65.3+24.04_amd64.deb ...
+Unpacking snapd (2.65.3+24.04) over (2.63.1+24.04) ...
+Setting up snapd (2.65.3+24.04) ...
+Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...
+snapd.failure.service is a disabled or a static unit not running, not starting it.
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.
+Setting up distro-info-data (0.60ubuntu0.2) ...
+Setting up libproc2-0:amd64 (2:4.0.4-4ubuntu3.2) ...
+Setting up python3-urllib3 (2.0.7-1ubuntu0.1) ...
+Setting up nano (7.2-2ubuntu0.1) ...
+Setting up python3-update-manager (1:24.04.9) ...
+Setting up procps (2:4.0.4-4ubuntu3.2) ...
+Setting up linux-tools-common (6.8.0-48.48) ...
+Setting up initramfs-tools-bin (0.142ubuntu25.4) ...
+Setting up update-manager-core (1:24.04.9) ...
+Setting up initramfs-tools-core (0.142ubuntu25.4) ...
+Setting up initramfs-tools (0.142ubuntu25.4) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+Processing triggers for install-info (7.1-3build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+Processing triggers for initramfs-tools (0.142ubuntu25.4) ...
+update-initramfs: Generating /boot/initrd.img-6.8.0-45-generic
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+locale: Cannot set LC_ALL to default locale: No such file or directory
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+ systemctl restart multipathd.service packagekit.service
+
+Service restarts being deferred:
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+# Executing docker install script, commit: 6d51e2cd8c04b38e1c2237820245f4fc262aca6c
++ sh -c apt-get -qq update >/dev/null
++ sh -c DEBIAN_FRONTEND=noninteractive apt-get -y -qq install ca-certificates curl >/dev/null
++ sh -c install -m 0755 -d /etc/apt/keyrings
++ sh -c curl -fsSL "https://download.docker.com/linux/ubuntu/gpg" -o /etc/apt/keyrings/docker.asc
++ sh -c chmod a+r /etc/apt/keyrings/docker.asc
++ sh -c echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu noble stable" > /etc/apt/sources.list.d/docker.list
++ sh -c apt-get -qq update >/dev/null
++ sh -c DEBIAN_FRONTEND=noninteractive apt-get -y -qq install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-ce-rootless-extras docker-buildx-plugin >/dev/null
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+locale: Cannot set LC_ALL to default locale: No such file or directory
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+locale: Cannot set LC_ALL to default locale: No such file or directory
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_TIME = "nl_NL.UTF-8",
+	LC_MONETARY = "nl_NL.UTF-8",
+	LC_ADDRESS = "nl_NL.UTF-8",
+	LC_TELEPHONE = "nl_NL.UTF-8",
+	LC_NAME = "nl_NL.UTF-8",
+	LC_MEASUREMENT = "nl_NL.UTF-8",
+	LC_IDENTIFICATION = "nl_NL.UTF-8",
+	LC_NUMERIC = "nl_NL.UTF-8",
+	LC_PAPER = "nl_NL.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
++ sh -c docker version
+Client: Docker Engine - Community
+ Version:           27.3.1
+ API version:       1.47
+ Go version:        go1.22.7
+ Git commit:        ce12230
+ Built:             Fri Sep 20 11:40:59 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          27.3.1
+  API version:      1.47 (minimum version 1.24)
+  Go version:       go1.22.7
+  Git commit:       41ca978
+  Built:            Fri Sep 20 11:40:59 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.7.22
+  GitCommit:        7f7fdf5fed64eb6a7caf99b3e12efcf9d60e311c
+ runc:
+  Version:          1.1.14
+  GitCommit:        v1.1.14-0-g2c9f560
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+================================================================================
+
+To run Docker as a non-privileged user, consider setting up the
+Docker daemon in rootless mode for your user:
+
+    dockerd-rootless-setuptool.sh install
+
+Visit https://docs.docker.com/go/rootless/ to learn about rootless mode.
+
+
+To run the Docker daemon as a fully privileged service, but granting non-root
+users access, refer to https://docs.docker.com/go/daemon-access/
+
+WARNING: Access to the remote API on a privileged Docker daemon is equivalent
+         to root access on the host. Refer to the 'Docker daemon attack surface'
+         documentation for details: https://docs.docker.com/go/attack-surface/
+
+================================================================================
+
+b82ea1085dbb874628d37075eb7cb4c50b4f4ba3d12c6efda1cfcfd317db0040
+ caddy Pulling 
+ 43c4264eed91 Pulling fs layer 
+ 02040ba779ee Pulling fs layer 
+ c257707c9719 Pulling fs layer 
+ 06ce39c94b8d Pulling fs layer 
+ 4f4fb700ef54 Pulling fs layer 
+ 06ce39c94b8d Waiting 
+ 4f4fb700ef54 Waiting 
+ 02040ba779ee Downloading [>                                                  ]  4.824kB/355.5kB
+ c257707c9719 Downloading [====>                                              ]     719B/7.449kB
+ c257707c9719 Downloading [==================================================>]  7.449kB/7.449kB
+ 43c4264eed91 Downloading [>                                                  ]  37.46kB/3.624MB
+ 02040ba779ee Downloading [==================================================>]  355.5kB/355.5kB
+ 02040ba779ee Verifying Checksum 
+ 02040ba779ee Download complete 
+ 43c4264eed91 Verifying Checksum 
+ 43c4264eed91 Download complete 
+ 43c4264eed91 Extracting [>                                                  ]  65.54kB/3.624MB
+ 43c4264eed91 Extracting [============>                                      ]  917.5kB/3.624MB
+ 43c4264eed91 Extracting [==================================================>]  3.624MB/3.624MB
+ 06ce39c94b8d Downloading [>                                                  ]    148kB/14.64MB
+ 4f4fb700ef54 Download complete 
+ 43c4264eed91 Pull complete 
+ 02040ba779ee Extracting [====>                                              ]  32.77kB/355.5kB
+ 06ce39c94b8d Downloading [=====================>                             ]  6.232MB/14.64MB
+ 02040ba779ee Extracting [====================================>              ]  262.1kB/355.5kB
+ 02040ba779ee Extracting [==================================================>]  355.5kB/355.5kB
+ 02040ba779ee Extracting [==================================================>]  355.5kB/355.5kB
+ 06ce39c94b8d Downloading [================================================>  ]  14.13MB/14.64MB
+ 06ce39c94b8d Verifying Checksum 
+ 06ce39c94b8d Download complete 
+ 02040ba779ee Pull complete 
+ c257707c9719 Extracting [==================================================>]  7.449kB/7.449kB
+ c257707c9719 Extracting [==================================================>]  7.449kB/7.449kB
+ c257707c9719 Pull complete 
+ 06ce39c94b8d Extracting [>                                                  ]  163.8kB/14.64MB
+ 06ce39c94b8d Extracting [==========>                                        ]  2.949MB/14.64MB
+ 06ce39c94b8d Extracting [======================>                            ]  6.717MB/14.64MB
+ 06ce39c94b8d Extracting [===============================>                   ]  9.175MB/14.64MB
+ 06ce39c94b8d Extracting [===================================>               ]  10.49MB/14.64MB
+ 06ce39c94b8d Extracting [==================================================>]  14.64MB/14.64MB
+ 06ce39c94b8d Pull complete 
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Extracting [==================================================>]      32B/32B
+ 4f4fb700ef54 Pull complete 
+ caddy Pulled 
+ Volume "caddy_caddy_data"  Creating
+ Volume "caddy_caddy_data"  Created
+ Volume "caddy_caddy_config"  Creating
+ Volume "caddy_caddy_config"  Created
+ Container caddy-caddy-1  Creating
+ Container caddy-caddy-1  Created
+ Container caddy-caddy-1  Starting
+ Container caddy-caddy-1  Started
+portainer_data
+Unable to find image 'portainer/portainer-ce:2.21.4' locally
+2.21.4: Pulling from portainer/portainer-ce
+2a8c27161aa3: Pulling fs layer
+679061c2c821: Pulling fs layer
+d40df14c1d7a: Pulling fs layer
+8215717c7c10: Pulling fs layer
+542669febe7c: Pulling fs layer
+6c27c7f45b54: Pulling fs layer
+070d3bf2528e: Pulling fs layer
+846480e9f8b0: Pulling fs layer
+c7053d7d4c2a: Pulling fs layer
+a2ed6de7fb5f: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+8215717c7c10: Waiting
+846480e9f8b0: Waiting
+542669febe7c: Waiting
+c7053d7d4c2a: Waiting
+a2ed6de7fb5f: Waiting
+070d3bf2528e: Waiting
+4f4fb700ef54: Waiting
+679061c2c821: Verifying Checksum
+679061c2c821: Download complete
+2a8c27161aa3: Download complete
+2a8c27161aa3: Pull complete
+679061c2c821: Pull complete
+d40df14c1d7a: Verifying Checksum
+d40df14c1d7a: Download complete
+8215717c7c10: Verifying Checksum
+8215717c7c10: Download complete
+542669febe7c: Verifying Checksum
+542669febe7c: Download complete
+6c27c7f45b54: Verifying Checksum
+6c27c7f45b54: Download complete
+d40df14c1d7a: Pull complete
+070d3bf2528e: Verifying Checksum
+070d3bf2528e: Download complete
+846480e9f8b0: Verifying Checksum
+846480e9f8b0: Download complete
+c7053d7d4c2a: Verifying Checksum
+c7053d7d4c2a: Download complete
+a2ed6de7fb5f: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+8215717c7c10: Pull complete
+542669febe7c: Pull complete
+6c27c7f45b54: Pull complete
+070d3bf2528e: Pull complete
+846480e9f8b0: Pull complete
+c7053d7d4c2a: Pull complete
+a2ed6de7fb5f: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:f2a7f5abd4735f9cd91563c6134e014b15168c4018beea87f1eec9d9618b2ad4
+Status: Downloaded newer image for portainer/portainer-ce:2.21.4
+ddc61d8cbe48c07f02170cfb8cc7b50c2e926a4d7650e136c1108ee551374c97
+sh: 0: cannot open ubuntu@135.181.158.108: No such file
