@@ -31,6 +31,7 @@ envsubst < server.sh | ssh $NEW_USER@$SERVER_IP 'bash -s'
 
 info "Updating local SSH config"
 cat <<EOL >> "$HOME/.ssh/config"
+
 Host $SSH_CONFIG_HOST
   HostName $SERVER_IP
   User $NEW_USER
