@@ -1,7 +1,7 @@
 set -e
 
 # Create non-root user and add SSH access
-useradd -m -s /bin/bash -G sudo $NEW_USER && echo "$NEW_USER:$USER_PASSWORD" | chpasswd
+useradd -m -s /bin/bash -G sudo -g $NEW_USER $NEW_USER && echo "$NEW_USER:$USER_PASSWORD" | chpasswd
 rsync --archive --chown=$NEW_USER:$NEW_USER ~/.ssh /home/$NEW_USER
 
 groupadd docker
