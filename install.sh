@@ -6,11 +6,20 @@ exec 3>/dev/tty
 
 info() {
   message=$1
-  echo -e "$message ..." >&3
+  echo -e "$message" >&3
 }
 
 # Stop after error
 set -e
+
+# Function to handle the script exit
+function finish {
+    if [ $? -ne 0 ]; then
+        info "Install script encountered an error. Check install.log for details."
+    fi
+}
+
+trap finish EXIT
 
 info "Reading environment variables from .env"
 export $(grep -v '^#' .env | xargs)

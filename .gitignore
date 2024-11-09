@@ -1,2 +1,3 @@
 .env
 caddy/Caddyfile
+*.log
