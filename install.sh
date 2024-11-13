@@ -22,7 +22,7 @@ function finish {
 trap finish EXIT
 
 info "Reading environment variables from .env"
-export $(grep -v '^#' .env | xargs)
+export $(grep -v '^#' .env | sed 's/\s*#.*//' | xargs)
 
 info "Removing SSH key from known hosts (if present)"
 ssh-keygen -R $SERVER_IP

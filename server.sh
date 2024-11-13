@@ -44,11 +44,5 @@ docker network create caddy_net
 # Set up Caddy
 docker compose -f /home/${NEW_USER}/caddy/compose.yaml up -d
 
-# Install and run Portainer using Docker
-docker volume create portainer_data
-docker run -d --name portainer --restart=always \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  -v portainer_data:/data --network caddy_net portainer/portainer-ce:2.21.4
-
 # Remove temporary passwordless sudo access
 sudo rm "$TEMP_SUDOERS"
